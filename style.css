@@ -1,0 +1,649 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    background-color: #F5FFFA;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Universal Elements */
+
+.btn {
+    padding: 11px 25px;
+    font-weight: bold;
+    color: white;
+    background-color: #5b977a;
+    border: none;
+    cursor: pointer;
+}
+
+p {
+    color: #636C79;
+}
+
+/* Header Section */
+
+header {
+    height: 100vh;
+    background-color: #636C79;
+}
+
+nav {
+    color: white;
+    padding: 30px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.list-item {
+    list-style: none;
+}
+
+.nav-btn {
+    border: 1px solid white;
+    padding: 8px 25px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* Section Hero */
+
+.hero {
+    padding: 30px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-image {
+    /* border: 2px solid red; */
+    width: 40%;
+    height: 70vh;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-text {
+    width: 45%;
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.hero-text p {
+    color: #a1a0a0;
+    width: 85%;
+    font-size: 18px;
+    margin: 50px 0;
+    font-weight: 500;
+}
+
+.input-hero form {
+    background-color: #F5FFFA;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 8px;
+}
+
+.input-hero form input {
+    width: 75%;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+/* Section Projects */
+
+.project {
+    margin: 90px;
+}
+
+.project1 h3 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.stats {
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.projects-image {
+    margin-left: 25px;
+    height: 75vh;
+    width: 95%;
+}
+
+.projects-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 2px 2px 10px 2px #636C79;
+}
+
+/* Section Design */
+
+.design {
+    margin: 150px;
+}
+
+.design h3 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.design1 {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.design-text {
+    width: 45%;
+}
+
+.design-text h4 {
+    font-size: 37px;
+    font-weight: 700;
+}
+
+.design-text p {
+    width: 85%;
+    font-size: 18px;
+    margin: 50px 0;
+    font-weight: 500;
+}
+
+.design-image {
+    width: 55%;
+    height: 80vh;
+}
+
+.design-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 2px 2px 10px 2px #636C79;
+}
+
+/* Marketing Section */
+
+.market {
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.market-image {
+    width: 400px;
+    height: 80vh;
+}
+
+.market-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 2px 2px 10px 2px #636C79;
+}
+
+.market-text {
+    width: 45%;
+}
+
+.market-text h4 {
+    font-size: 37px;
+    font-weight: 700;
+}
+
+.market-text p {
+    width: 85%;
+    font-size: 18px;
+    margin: 50px 0;
+    font-weight: 500;
+}
+
+/* Section Judge */
+
+.judge {
+    margin: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.judge-text {
+    width: 45%;
+}
+
+.judge-text h4 {
+    font-size: 37px;
+    font-weight: 700;
+}
+
+.judge-text p {
+    width: 85%;
+    font-size: 18px;
+    margin: 50px 0;
+    font-weight: 500;
+}
+
+.judge-image {
+    width: 45%;
+    height: 80vh;
+}
+
+.judge-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 2px 2px 10px 2px #636C79;
+}
+
+/* Section Teams */
+
+.teams {
+    margin: 100px;
+}
+
+.team-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.team-text h4 {
+    font-size: 35px;
+    width: 25%;
+}
+
+.team-text p {
+    font-size: 18px;
+    width: 40%;
+    line-height: 30px;
+}
+
+.team-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.card img {
+    width: 100%;
+    box-shadow: 2px 2px 10px 2px #636C79;
+}
+
+.card h5 {
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+.card p {
+    font-size: 15px;
+}
+
+.team-button {
+    display: block;
+    margin-top: 65px;
+    margin-left: 40%;
+}
+
+.team-btn {
+    padding: 17px 45px;
+    font-size: large;
+}
+
+/* Footer Section */
+
+footer {
+    margin-top: 100px;
+    height: 75vh;
+    background-color: #10181D;
+}
+
+.foot {
+    margin: 0 100px;
+}
+
+.logo-bar {
+    padding: 45px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo img {
+    height: 40px;
+}
+
+.media-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.media-icons img {
+    height: 40px;
+    width: 40px;
+    background-color: #dbdbdb;
+
+}
+
+
+.list-bar {
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-item {
+    list-style: none;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.heading-item {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Media Queries - Responsiveness */
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+
+    nav {
+        padding: 2.5rem;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .logo img {
+        height: 2rem;
+    }
+
+    /* Section Hero */
+
+    header {
+        height: auto;
+    }
+
+    .hero {
+        flex-direction: column;
+        gap: 1.3rem;
+        padding: 2.5rem;
+    }
+
+    .hero-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .hero-text h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero-text p {
+        width: 100%;
+        margin: 2rem 0;
+        font-size: 1rem;
+    }
+
+    .input-hero form {
+        width: 100%;
+        padding: 0;
+    }
+
+    /* Section Projects */
+
+    .project {
+        margin: 2.5rem 0;
+        padding: 0 2.5rem;
+        width: 100%;
+    }
+
+    .project1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project1 h3 {
+        font-size: 1.6rem;
+    }
+
+    .stat {
+        text-align: center;
+    }
+
+    .stat h3 {
+        font-size: 1.2rem;
+    }
+
+    .projects-image {
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .projects-image img {
+        height: 100%;
+        width: 100%;
+    }
+
+    /* Section Design */
+
+    .design {
+        width: 100%;
+        margin: 6rem 0;
+        padding: 0 2.5rem;
+    }
+
+    .design1 {
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    .design-text {
+        width: 100%;
+    }
+
+    .design-text h4 {
+        font-size: 1.5rem;
+    }
+
+    .design-text p {
+        width: 100%;
+        margin: 1.5rem 0;
+    }
+
+    .design-image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .design-image img {
+        width: 100%;
+    }
+
+    /* Marketing Section */
+
+    .market {
+        margin: 2.5rem;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .market-image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .market-image img {
+        height: 100%;
+    }
+
+    .market-text {
+        width: 100%;
+    }
+
+    .market-text h4 {
+        font-size: 1.5rem;
+    }
+
+    .market-text p {
+        width: 100%;
+        margin: 1.3rem 0;
+    }
+
+    /* Section Judge */
+
+    .judge {
+        margin: 10rem 2.5rem;
+        flex-direction: column-reverse;
+        gap: 3rem;
+    }
+
+    .judge-text {
+        width: 100%;
+    }
+
+    .judge-text h4 {
+        font-size: 1.5rem;
+    }
+
+    .judge-text p {
+        width: 100%;
+        margin: 1.3rem 0;
+    }
+
+    .judge-image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .judge-image img {
+        width: 100%;
+    }
+
+    /* Section Teams */
+
+    .teams {
+        margin: 6rem 2.5rem;
+    }
+
+    .team-text {
+        flex-direction: column;
+    }
+
+    .team-text h4 {
+        font-size: 2.1rem;
+        width: 100%;
+    }
+
+    .team-text p {
+        margin: 1.4rem 0;
+        width: 100%;
+        line-height: 1.5rem;
+    }
+
+    .team-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .team-button {
+        margin: 3rem auto;
+    }
+
+    /* Footer Section */
+
+    footer {
+        margin: 0;
+        padding: 2.5rem;
+        height: auto;
+        background-color: #10181D;
+    }
+
+    .foot {
+        margin: 0;
+    }
+
+    .logo-bar {
+        padding: 1rem 0;
+        /* gap: 17vw; */
+    }
+
+    .footer-logo img {
+        height: 2rem;
+    }
+
+    .media-icons img {
+        height: 2rem;
+        width: 2rem;
+    }
+    
+    .media-icons img:nth-child(3),
+    .media-icons img:nth-child(4)
+     {
+       display: none;
+    }
+
+    .list-bar {
+        padding: 3rem 0;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 3rem;
+    }
+
+    .menu-item {
+        margin-bottom: 0.5rem;
+    }
+
+}
